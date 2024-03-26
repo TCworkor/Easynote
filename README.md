@@ -4,7 +4,7 @@
 
 
 
-## 简体中文 | [English]([Easynote/README_en.md at main · TCworkor/Easynote (github.com)](https://github.com/TCworkor/Easynote/blob/main/README_en.md)) |
+## 简体中文 | [English](https://github.com/TCworkor/Easynote/blob/main/README_en.md) |
 
 > **一款简单的日程安排和记事app**
 
