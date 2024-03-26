@@ -1,4 +1,4 @@
-# Easynote			![](D:\github\Easynote\Easynote\displaypictures\en (1).png)
+# Easynote			<img src='.\\displaypictures\\zan.jpg' style="height: 400px !important;">
 
 <p align="left">
     <a href="./LICENSE"><img src="https://img.shields.io/github/license/HIllya51/LunaTranslator"></a>
