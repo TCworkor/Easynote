@@ -1,0 +1,3 @@
+#创建一个.gitattributes文件，并在其中指定哪些文件应该保留原始的换行符。
+*.md binary
+

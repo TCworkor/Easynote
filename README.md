@@ -58,7 +58,6 @@
 
    <img src='.\\displaypictures\\zh (4).jpg' style="height: 400px !important;">
    
-   
 5. 侧滑，创建好的日程，即可进行**删除和管理**。
    <img src='.\\displaypictures\\zh (12).jpg' style="height: 400px !important;">
 
