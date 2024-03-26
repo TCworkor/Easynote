@@ -8,7 +8,7 @@
     <a href="https://github.com/HIllya51/LunaTranslator/stargazers"><img src="https://img.shields.io/github/stars/HIllya51/LunaTranslator?color=ccf"></a>
     <a href="https://hillya51.github.io/download.html" target="_blank"><img src="https://img.shields.io/badge/download-blue"/></a>
 </p>
-## 简体中文 | [English](./README_en.md) | 
+**简体中文 | [English](./README_en.md) |** 
 
 > **一款简单的日程安排和记事app**
 
@@ -57,7 +57,8 @@
    滑动条形式的时间设置，更简单，更直观！
 
    <img src='.\\displaypictures\\zh (4).jpg' style="height: 400px !important;">
-
+   
+   
 5. 侧滑，创建好的日程，即可进行**删除和管理**。
    <img src='.\\displaypictures\\zh (12).jpg' style="height: 400px !important;">
 

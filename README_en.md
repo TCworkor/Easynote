@@ -8,8 +8,7 @@
     <a href="https://github.com/HIllya51/LunaTranslator/stargazers"><img src="https://img.shields.io/github/stars/HIllya51/LunaTranslator?color=ccf"></a>
     <a href="https://hillya51.github.io/download.html" target="_blank"><img src="https://img.shields.io/badge/download-blue"/></a>
 </p>
-
-## English | [简体中文](./README.md) | 
+**English | [简体中文](./README.md) |** 
 
 > **A simple app for scheduling and note-taking**
 
