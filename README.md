@@ -45,20 +45,23 @@
    <img src='.\\displaypictures\\zh (1).jpg' style="height: 400px !important;">
 
 3. 点击右下角的加号可以添加新的日程
-   ![](D:\github\Easynote\Easynote\displaypictures\zh (15) - 副本.jpg)
+
    <img src='.\\displaypictures\\zh (15) - 副本.jpg' style="height: 400px !important;">
 
 4. 在新日程的编辑界面，用户可以手动或者快捷输入文本！
+
    <img src='.\\displaypictures\\zh (8).jpg' style="height: 400px !important;">
 
    用户可以根据需要设定时间！
+   
    <img src='.\\displaypictures\\zh (14).jpg' style="height: 400px !important;">
 
    滑动条形式的时间设置，更简单，更直观！
 
    <img src='.\\displaypictures\\zh (4).jpg' style="height: 400px !important;">
    
-5. 侧滑，创建好的日程，即可进行**删除和管理**。
+6. 侧滑，创建好的日程，即可进行**删除和管理**。
+
    <img src='.\\displaypictures\\zh (12).jpg' style="height: 400px !important;">
 
 
@@ -66,12 +69,15 @@
 ### 2.代办功能！
 
 1. 在这里写下自己的目标，然后去实现它吧！
+
    <img src='.\\displaypictures\\zh (13).jpg' style="height: 400px !important;">
 
-2. 点击加号，编辑新的代办！（同样可以快捷输入）
+3. 点击加号，编辑新的代办！（同样可以快捷输入）
+
    <img src='.\\displaypictures\\zh (11).jpg' style="height: 400px !important;">
 
-3. 会显示还剩的天数，而且会根据剩余的天数改变颜色！
+5. 会显示还剩的天数，而且会根据剩余的天数改变颜色！
+
    <img src='.\\displaypictures\\wei.jpg' style="height: 400px !important;">
 
 
