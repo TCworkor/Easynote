@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 应用需要发布通知的权限 -->
+    <!-- Permission for the app to post notifications -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- 添加的前台服务权限 -->
+    <!-- Permission for foreground service -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ye_ey"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ye_ey"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+
+        <!-- 主活动配置 -->
+        <!-- Main Activity configuration -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication">
+            <!-- 意图过滤器，定义这是一个入口点活动 -->
+            <!-- Intent filter, defining this as an entry point activity -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 声明应用中的 AlarmReceiver -->
+        <!-- Declaration of AlarmReceiver in the app -->
+        <receiver android:name="com.example.myapplication.part.AlarmReceiver" />
+    </application>
+</manifest>

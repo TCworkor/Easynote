@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="channel_name">Alarm Notification</string>
+    <string name="channel_description">用于闹钟提醒的通知渠道</string>
+    <!-- 其他字符串资源 -->
+
+
+
+    <string name="app_name">简记</string>
+</resources>

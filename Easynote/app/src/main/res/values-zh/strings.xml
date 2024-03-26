@@ -1,0 +1,22 @@
+<resources>
+    <string name="channel_name">闹钟通知</string>
+    <string name="channel_description">用于闹钟提醒的通知渠道</string>
+    <string name="app_name">简记</string>
+    <!-- 其他字符串 -->
+    <string name="richeng">日程</string>
+    <string name="daiban">代办</string>
+    <string name="or1">切换主题</string>
+    <string name="or2">切换语言</string>
+    <string name="or3">述</string>
+    <!-- 其他字符串 -->
+    <string name="sav">保存</string>
+    <string name="wri">请输入文本</string>
+    <string name="tim">时间</string>
+    <string name="dat">日期</string>
+
+    <!-- 时 -->
+    <string name="tih">选择闹钟的触发方式</string>
+
+    <string name="dy">天</string>
+
+</resources>

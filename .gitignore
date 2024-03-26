@@ -1,0 +1,44 @@
+# 忽略所有.log文件
+*.log
+
+# 忽略所有.iml文件
+*.iml
+
+# 忽略build目录
+/build/
+
+# 忽略.gradle目录
+/.gradle/
+
+# 忽略.idea目录
+/.idea/
+
+# 忽略local.properties文件
+/local.properties
+
+# 忽略所有.DS_Store文件
+.DS_Store
+
+# 忽略所有.idea目录
+.idea/
+
+# 忽略所有.gradle目录
+.gradle/
+
+# 忽略所有.build目录
+.build/
+
+# 忽略所有.env文件
+.env
+
+# 忽略所有.env.local文件
+.env.local
+
+# 忽略所有.env.production文件
+.env.production
+
+# 忽略所有.env.development文件
+.env.development
+
+# 忽略所有.env.test文件
+.env.test

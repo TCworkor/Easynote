@@ -1,0 +1,23 @@
+<resources>
+    <string name="channel_name">Alarm Notification</string>
+    <string name="channel_description">Notification channel for alarm reminders</string>
+    <string name="app_name">Easynote</string>
+    <!-- 其他字符串 -->
+    <string name="richeng">schedule</string>
+    <string name="daiban">todo</string>
+    <string name="or1">switch theme</string>
+    <string name="or2">switch language</string>
+    <string name="or3">state</string>
+
+    <!-- 写 -->
+    <string name="sav">save</string>
+    <string name="wri">Please enter the text</string>
+    <string name="tim">time</string>
+    <string name="dat">date</string>
+
+    <!-- 时 -->
+    <string name="tih">The trigger mode for the alarm clock</string>
+
+    <string name="dy">days</string>
+
+</resources>
