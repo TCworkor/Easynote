@@ -2,13 +2,9 @@
 
 # 简记			
 
-<p align="left">
-    <a href="./LICENSE"><img src="https://img.shields.io/github/license/HIllya51/LunaTranslator"></a>
-    <a href="https://github.com/HIllya51/LunaTranslator/releases"><img src="https://img.shields.io/github/v/release/HIllya51/LunaTranslator?color=ffa"></a>
-    <a href="https://github.com/HIllya51/LunaTranslator/stargazers"><img src="https://img.shields.io/github/stars/HIllya51/LunaTranslator?color=ccf"></a>
-    <a href="https://hillya51.github.io/download.html" target="_blank"><img src="https://img.shields.io/badge/download-blue"/></a>
-</p>
-**简体中文 | [English](./README_en.md) |** 
+
+
+## 简体中文 | [English]([Easynote/README_en.md at main · TCworkor/Easynote (github.com)](https://github.com/TCworkor/Easynote/blob/main/README_en.md)) |
 
 > **一款简单的日程安排和记事app**
 

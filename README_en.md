@@ -2,13 +2,9 @@
 
 # Easynote			
 
-<p align="left">
-    <a href="./LICENSE"><img src="https://img.shields.io/github/license/HIllya51/LunaTranslator"></a>
-    <a href="https://github.com/HIllya51/LunaTranslator/releases"><img src="https://img.shields.io/github/v/release/HIllya51/LunaTranslator?color=ffa"></a>
-    <a href="https://github.com/HIllya51/LunaTranslator/stargazers"><img src="https://img.shields.io/github/stars/HIllya51/LunaTranslator?color=ccf"></a>
-    <a href="https://hillya51.github.io/download.html" target="_blank"><img src="https://img.shields.io/badge/download-blue"/></a>
-</p>
-**English | [简体中文](./README.md) |** 
+
+
+## English | [简体中文](https://github.com/TCworkor/Easynote/edit/main/README.md)
 
 > **A simple app for scheduling and note-taking**
 
