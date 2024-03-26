@@ -1,4 +1,6 @@
-# Easynote			<img src='.\\displaypictures\\zan.jpg' style="height: 400px !important;">
+<img src='.\\displaypictures\\en (1).png' style="height: 100px !important;">
+
+# Easynote			
 
 <p align="left">
     <a href="./LICENSE"><img src="https://img.shields.io/github/license/HIllya51/LunaTranslator"></a>

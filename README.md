@@ -1,4 +1,6 @@
-# 简记			![](D:\github\Easynote\Easynote\displaypictures\zhw.png)
+<img src='.\\displaypictures\\zhw.png' style="height: 100px !important;">
+
+# 简记			
 
 <p align="left">
     <a href="./LICENSE"><img src="https://img.shields.io/github/license/HIllya51/LunaTranslator"></a>
