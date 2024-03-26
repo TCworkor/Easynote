@@ -9,7 +9,7 @@
     <a href="https://hillya51.github.io/download.html" target="_blank"><img src="https://img.shields.io/badge/download-blue"/></a>
 </p>
 
-## English | [简体中文](README.md) | 
+## English | [简体中文](./README.md) | 
 
 > **A simple app for scheduling and note-taking**
 
@@ -38,47 +38,38 @@
 ### 1. Scheduling Function!
 
 1. Similar to an alarm clock but with some personal ideas added!
-   ![](D:\github\Easynote\Easynote\displaypictures\en (2).jpg)
+   <img src='.\\displaypictures\\en (2).jpg' style="height: 400px !important;">
 
 2. The gear icon in the top right corner can change the theme and language (language will be set automatically according to the user's phone system).
-   ![](D:\github\Easynote\Easynote\displaypictures\en (3).jpg)
+   <img src='.\\displaypictures\\en (3).jpg' style="height: 400px !important;">
 
 3. Click the plus icon in the bottom right corner to add a new schedule.
-   ![](D:\github\Easynote\Easynote\displaypictures\en (4).jpg)
+   <img src='.\\displaypictures\\en (4).jpg' style="height: 400px !important;">
 
 4. In the new schedule editing interface, users can enter text manually or quickly!
-   ![](D:\github\Easynote\Easynote\displaypictures\en (5).jpg)
+   <img src='.\\displaypictures\\en (5).jpg' style="height: 400px !important;">
 
    Users can set the time as needed!
-   ![](D:\github\Easynote\Easynote\displaypictures\sre.jpg)
+   <img src='.\\displaypictures\\sre.jpg' style="height: 400px !important;">
 
    Slider bar for time setting, simpler and more intuitive!
-
-
-   ![](D:\github\Easynote\Easynote\displaypictures\yu.jpg)
-
-   
-
-   
-
-   
+   <img src='.\\displaypictures\\yu.jpg' style="height: 400px !important;">
 
 5. Swipe to **manage and delete** created schedules.
-   ![](D:\github\Easynote\Easynote\displaypictures\en (7).jpg)
+   <img src='.\\displaypictures\\en (7).jpg' style="height: 400px !important;">
 
 
 
 ### 2.To-Do Function!
 
 1. Write down your goals here and then go achieve them!
-   ![zh (13)](D:\github\Easynote\Easynote\displaypictures\en (8).jpg)
+   <img src='.\\displaypictures\\en (8).jpg' style="height: 400px !important;">
 
 2. "Click the plus sign to create a new to-do! (You can also input quickly!)"
-
-   ![](D:\github\Easynote\Easynote\displaypictures\en (9).jpg)
+   <img src='.\\displaypictures\\en (9).jpg' style="height: 400px !important;">
 
 3. "It will display the remaining days and change color based on the remaining days!"
-   ![](D:\github\Easynote\Easynote\displaypictures\en (6).jpg)
+   <img src='.\\displaypictures\\en (6).jpg' style="height: 400px !important;">
 
 ## Submit Errors and Suggestions
 
