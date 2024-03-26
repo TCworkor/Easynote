@@ -37,24 +37,31 @@
 ### 1. Scheduling Function!
 
 1. Similar to an alarm clock but with some personal ideas added!
+
    <img src='.\\displaypictures\\en (2).jpg' style="height: 400px !important;">
 
-2. The gear icon in the top right corner can change the theme and language (language will be set automatically according to the user's phone system).
+3. The gear icon in the top right corner can change the theme and language (language will be set automatically according to the user's phone system).
+
    <img src='.\\displaypictures\\en (3).jpg' style="height: 400px !important;">
 
-3. Click the plus icon in the bottom right corner to add a new schedule.
+5. Click the plus icon in the bottom right corner to add a new schedule.
+
    <img src='.\\displaypictures\\en (4).jpg' style="height: 400px !important;">
 
-4. In the new schedule editing interface, users can enter text manually or quickly!
+7. In the new schedule editing interface, users can enter text manually or quickly!
+
    <img src='.\\displaypictures\\en (5).jpg' style="height: 400px !important;">
 
    Users can set the time as needed!
+
    <img src='.\\displaypictures\\sre.jpg' style="height: 400px !important;">
 
    Slider bar for time setting, simpler and more intuitive!
+
    <img src='.\\displaypictures\\yu.jpg' style="height: 400px !important;">
 
-5. Swipe to **manage and delete** created schedules.
+9. Swipe to **manage and delete** created schedules.
+
    <img src='.\\displaypictures\\en (7).jpg' style="height: 400px !important;">
 
 
@@ -62,12 +69,15 @@
 ### 2.To-Do Function!
 
 1. Write down your goals here and then go achieve them!
+
    <img src='.\\displaypictures\\en (8).jpg' style="height: 400px !important;">
 
-2. "Click the plus sign to create a new to-do! (You can also input quickly!)"
+3. "Click the plus sign to create a new to-do! (You can also input quickly!)"
+
    <img src='.\\displaypictures\\en (9).jpg' style="height: 400px !important;">
 
-3. "It will display the remaining days and change color based on the remaining days!"
+5. "It will display the remaining days and change color based on the remaining days!"
+
    <img src='.\\displaypictures\\en (6).jpg' style="height: 400px !important;">
 
 ## Submit Errors and Suggestions
