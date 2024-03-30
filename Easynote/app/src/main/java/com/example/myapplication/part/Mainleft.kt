@@ -92,7 +92,8 @@ fun uimain(navController: androidx.navigation.NavController,userInputViewModel: 
                         modifier = Modifier.fillMaxWidth()
                     ) {
                         MiniCalendar() // 小日历组件
-
+                        Spacer(modifier = Modifier.width(16.dp)) // 在组件之间添加16dp的宽度间隔
+                        DateBasedImage() // 新的基于日期显示图片的组件
                     }
 
                 }

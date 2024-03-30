@@ -9,6 +9,7 @@ import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInVertically
 import androidx.compose.animation.slideOutVertically
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
@@ -41,10 +42,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import com.example.myapplication.R
 import com.example.myapplication.currentLanguage
 import java.text.SimpleDateFormat
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 import java.util.Calendar
 import java.util.Locale
 
@@ -196,4 +201,77 @@ fun MiniCalendar() {
             )
         }
     }
+}
+
+//感恩节
+fun calculateThanksgivingDate(year: Int): String {
+    val month = 11 // 感恩节在11月
+    var dayOfMonth = 1
+    val calendar = Calendar.getInstance()
+    calendar.set(year, month - 1, dayOfMonth)
+
+    // 找到11月的第一个星期四
+    while (calendar.get(Calendar.DAY_OF_WEEK) != Calendar.THURSDAY) {
+        calendar.add(Calendar.DAY_OF_MONTH, 1)
+    }
+
+    // 添加21天到达第四个星期四
+    calendar.add(Calendar.DAY_OF_MONTH, 21)
+    val thanksgivingDay = calendar.get(Calendar.DAY_OF_MONTH)
+
+    // 构造MMdd格式的日期字符串
+    return String.format("%02d%02d", month, thanksgivingDay)
+}
+
+
+@Composable
+fun DateBasedImage() {
+    val today = LocalDate.now()
+    val formatter = DateTimeFormatter.ofPattern("MMdd")
+    val todayFormatted = today.format(formatter)
+
+    val thanksgiving = calculateThanksgivingDate(today.year)
+
+    // 定义一个节日和对应图片资源的Map
+    val festivalImages = mapOf(
+        "0101" to R.drawable.new_year_day, // 元旦
+        "0214" to R.drawable.valentines_day, // 情人节
+        "0308" to R.drawable.international_women_day, // 妇女节
+        "0422" to R.drawable.earth_day, // 地球日
+        "0501" to R.drawable.international_workers_day, // 劳动节
+        "0601" to R.drawable.international_children_day, // 儿童节
+        "0921" to R.drawable.international_day_of_peace, // 国际和平日
+        "1031" to R.drawable.halloween, // 万圣节
+        "1225" to R.drawable.christmas_day, // 圣诞节
+        thanksgiving to R.drawable.thanksgiving_day, // 感恩节
+//        "0214" to R.drawable.valentines_day, // 情人节
+//        "0214" to R.drawable.valentines_day, // 情人节
+//        "0214" to R.drawable.valentines_day, // 情人节
+//        "0214" to R.drawable.valentines_day, // 情人节
+        // 在这里添加更多节日和对应的图片资源
+    )
+
+    // 定义星期一至星期日的图片资源
+    val weekdayImages = listOf(
+        R.drawable.sunday,
+        R.drawable.monday,
+        R.drawable.tuesday,
+        R.drawable.wednesday,
+        R.drawable.thursday,
+        R.drawable.friday,
+        R.drawable.saturday
+        // 根据实际情况调整资源
+    )
+
+    // 根据当前日期判断显示哪个图片资源
+    val imageRes = festivalImages[todayFormatted]
+        ?: weekdayImages[today.dayOfWeek.value % 7] // 注意：DayOfWeek是从1开始的
+
+    Image(
+        painter = painterResource(id = imageRes),
+        contentDescription = "根据日期显示的图片",
+        modifier = Modifier.size(100.dp) // 或其他合适的尺寸
+    )
+
+
 }
