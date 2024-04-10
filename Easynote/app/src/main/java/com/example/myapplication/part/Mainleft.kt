@@ -5,6 +5,7 @@ import androidx.compose.animation.core.TweenSpec
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.expandVertically
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.Orientation
 import androidx.compose.foundation.layout.Arrangement
@@ -46,8 +47,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -67,6 +70,18 @@ fun uimain(navController: androidx.navigation.NavController,userInputViewModel: 
 
     val context = LocalContext.current
 
+    // 获取当前主题对应的背景图片资源ID
+    val backgroundImageResId = when (ThemePreference.getTheme(context)) {
+        1 -> R.drawable.nih // 主题1的背景
+        2 -> R.drawable.blue // 主题2的背景
+        3 -> R.drawable.red // 主题1的背景
+        // 其他主题的背景...
+        else -> R.drawable.gree // 默认背景
+    }
+    // 一次性加载背景图片
+    // 在 remember 中保存图片资源ID以避免重复加载
+    val backgroundImage = painterResource(id = backgroundImageResId)
+
     // 获取设备的最大宽度和高度
     val maxWidth = configuration.screenWidthDp.dp
     val maxHeight = configuration.screenHeightDp.dp
@@ -75,6 +90,16 @@ fun uimain(navController: androidx.navigation.NavController,userInputViewModel: 
 
     AppTheme{
         Box(modifier = Modifier.fillMaxSize()) { // 使用Box作为最外层布局
+
+            // 背景图片
+            Image(
+                painter = backgroundImage,
+                contentDescription = null,
+                contentScale = ContentScale.Crop, // 根据需要调整缩放方式
+                modifier = Modifier.matchParentSize() // 确保图片填满父布局
+            )
+
+
             Column(modifier = Modifier
                 .fillMaxSize()
                 .padding(10.dp)) {
@@ -87,6 +112,16 @@ fun uimain(navController: androidx.navigation.NavController,userInputViewModel: 
                     border = BorderStroke(1.dp, Color.LightGray), // 选择适合的边框颜色和宽度
                     shape = MaterialTheme.shapes.medium // 使用主题中定义的形状，以保持一致性
                 ) {
+
+
+                    // 背景图片
+                    Image(
+                        painter = painterResource(id = backgroundImageResId),
+                        contentDescription = null,
+                        contentScale = ContentScale.Crop, // 根据需要调整缩放方式
+                    )
+
+
                     // 主要内容...
                     Row(
                         modifier = Modifier.fillMaxWidth()
@@ -109,6 +144,17 @@ fun uimain(navController: androidx.navigation.NavController,userInputViewModel: 
                     border = BorderStroke(1.dp, Color.LightGray), // 添加边框
                     shape = MaterialTheme.shapes.medium // 添加圆角
                 ) {
+
+
+                    // 背景图片
+                    Image(
+                        painter = backgroundImage,
+                        contentDescription = null,
+                        contentScale = ContentScale.Crop, // 根据需要调整缩放方式
+                    )
+
+
+
                     // 正文内容...
                     val scrollState = rememberScrollState()
 
@@ -168,6 +214,15 @@ fun uimain(navController: androidx.navigation.NavController,userInputViewModel: 
                     shape = MaterialTheme.shapes.medium // 使用主题中定义的形状，以保持一致性
                 ) {
 
+
+
+
+                    // 背景图片
+                    Image(
+                        painter = backgroundImage,
+                        contentDescription = null,
+                        contentScale = ContentScale.Crop, // 根据需要调整缩放方式
+                    )
 
                     Row(
                         modifier = Modifier.width(maxWidth),
